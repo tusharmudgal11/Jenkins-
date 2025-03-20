@@ -12,6 +12,8 @@ public class BigBaket {
 		driver.get("https://www.bigbasket.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@placeholder = 'Search for Products...']")).sendKeys("Apple");
+		System.out.println("got it");
+		System.out.println("Pull Req");
 	
 
 	}
